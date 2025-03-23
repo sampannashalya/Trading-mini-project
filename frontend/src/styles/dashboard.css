@@ -1,0 +1,98 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Stock list and Portfolio container */
+  .stock-container, .portfolio-container {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Stock and Portfolio items */
+  .stock-item, .portfolio-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .stock-item:last-child, .portfolio-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Profit/Loss color coding */
+  .green-text {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .red-text {
+    color: #ff4c4c;
+    font-weight: bold;
+  }
+  
+  /* Buy/Sell Section */
+  .buy-sell-container {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  /* Buy and Sell Buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .buy-button {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .sell-button {
+    background: #ff4c4c;
+    color: white;
+  }
+  
+  .buy-button:hover {
+    background: #45a049;
+  }
+  
+  .sell-button:hover {
+    background: #e33e3e;
+  }
+  
